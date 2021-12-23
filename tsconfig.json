@@ -12,13 +12,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "incremental": true,
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "src/*": ["./src/*"]
-    },
-    "incremental": true
+      "src/*": ["./src/*"],
+      "test-utils": ["./src/test/test-utils"]
+    }
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
+  "exclude": ["node_modules"]
 }
