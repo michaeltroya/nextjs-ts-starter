@@ -11,7 +11,7 @@ jobs:
   pull_request_workflow:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install modules
         run: yarn install --frozen-lockfile
 
