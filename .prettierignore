@@ -3,6 +3,7 @@
 /.pnp
 .pnp.js
 
+
 # JetBrains IDE files
 .idea/
 
@@ -33,3 +34,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# misc.
+README.md
+pnpm-lock.yaml
