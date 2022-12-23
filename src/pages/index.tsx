@@ -1,5 +1,3 @@
-import { NextPage } from 'next'
+const Page = () => <div>NextJS Boilerplate</div>
 
-const Home: NextPage = () => <div>NextJS Boilerplate</div>
-
-export default Home
+export default Page
